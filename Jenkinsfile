@@ -8,6 +8,7 @@ pipeline {
             sh '''
                 echo $(hostname)
                 echo $(pwd)
+                ehoo $(whoami)
                 '''
          }
       }
