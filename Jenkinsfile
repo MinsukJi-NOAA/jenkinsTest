@@ -11,6 +11,7 @@ pipeline {
                 echo $(whoami)
                 echo $(date)
                 echo $(which docker)
+                echo ${USER}
                 '''
          }
       }
