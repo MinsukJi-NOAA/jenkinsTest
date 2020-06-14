@@ -10,6 +10,7 @@ pipeline {
                 echo $(pwd)
                 echo $(whoami)
                 echo $(date)
+                echo $(which docker)
                 '''
          }
       }
