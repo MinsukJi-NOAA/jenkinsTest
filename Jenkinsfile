@@ -8,7 +8,8 @@ pipeline {
             sh '''
                 echo $(hostname)
                 echo $(pwd)
-                ehoo $(whoami)
+                echo $(whoami)
+                echo $(date)
                 '''
          }
       }
